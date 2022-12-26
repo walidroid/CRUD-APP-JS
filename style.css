@@ -6,7 +6,8 @@
  body{
     background: #222;
     color: #fff;
-    font-family: system-ui;
+    font-family: 'Courier New''bold';
+    
  }
 
  /* les espaces gauche et droite */
@@ -42,25 +43,25 @@
     width: 20%;
  }
  #total{
-    background: #a00d02;
+    background: #f10179;
     padding: 5px 2px;
     border-radius: 4px;
  }
  #total:before{
-    content:'Total:'
+    content:'Total : '
  }
  button{
     width: 100%;
     height: 30px;
     border: none;
     cursor: pointer;
-    background: #310044;
+    background: #974502;
     color: #fff;
     border-radius: 20px;
     transition: 0.5s;
  }
  button:hover{
-    background: #51025f;
+    background: #ba6724;
     letter-spacing: 1px;
  }
 

@@ -11,7 +11,6 @@ let submit =document.getElementById('submit')
 let mode='create'
 let tmp // global
 
-// console.log(title,price,taxes,ads,discount,total,count,category,submit);
 // get total
 function getTotal(){
     if (price.value!=''){
